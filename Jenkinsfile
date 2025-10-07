@@ -13,7 +13,7 @@ pipeline {
         }
         stage('install') {
             steps {
-                bat "mvn install -f mavenjava" #project name#
+                bat "mvn install -f mavenjava" //project name
             }
         }
         stage('test') {
